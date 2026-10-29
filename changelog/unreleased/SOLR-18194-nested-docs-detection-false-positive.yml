@@ -1,7 +1,0 @@
-title: Fix nested docs detection false positive
-type: changed
-authors:
-  - name: Luke Kot-Zaniewski
-links:
-  - name: SOLR-18194
-    url: https://issues.apache.org/jira/browse/SOLR-18194

@@ -1,7 +1,0 @@
-title: Core system properties can now also be configured via environment variables
-type: added
-authors:
-  - name: Prithvi S
-links:
-  - name: PR#4629
-    url: https://github.com/apache/solr/pull/4629

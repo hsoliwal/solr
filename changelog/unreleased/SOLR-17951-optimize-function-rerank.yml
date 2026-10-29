@@ -1,7 +1,0 @@
-title: Optimize re-ranking based on "functions"
-type: added
-authors:
-- name: hossman
-links:
-- name: SOLR-17951
-  url: https://issues.apache.org/jira/browse/SOLR-17951

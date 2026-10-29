@@ -1,7 +1,0 @@
-title: Remove broken disk-space optimization on "full-recovery"
-type: removed
-authors:
-  - name: Jason Gerlowski
-links:
-  - name: SOLR-18121
-    url: https://issues.apache.org/jira/browse/SOLR-18121
