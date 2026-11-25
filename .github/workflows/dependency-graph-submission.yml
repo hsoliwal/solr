@@ -9,6 +9,10 @@ permissions:
 
 jobs:
   dependency-submission:
+    # Upstream-only: submitting snapshots needs the repository dependency graph, which is
+    # disabled in this fork ("The Dependency graph is disabled for this repository").
+    # The job already has contents: write, so permissions are not the problem.
+    if: github.repository == 'apache/solr'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
